@@ -1,0 +1,65 @@
+{
+  "id": "expres-10-minutos",
+  "nombre": "Exprés Interlomas – Reforma en 10 min",
+  "color": "#EB6834",
+  "tecnologia": "metro-ligero",
+  "descripcion": "El sueño de los 10 minutos: metro automático a 100 km/h casi en línea recta, con una sola parada intermedia (Auditorio, Metro L7). Como cruza bajo la zona habitacional de Lomas, ese tramo va en túnel obligatorio. Sirve para ver cuánto cuesta cada minuto ahorrado frente a la Línea Poniente.",
+  "trazo": [
+    [-99.2826, 19.3963],
+    [-99.264, 19.399],
+    [-99.23, 19.415],
+    [-99.203, 19.4275],
+    [-99.1752, 19.4235]
+  ],
+  "estaciones": [
+    {
+      "id": "interlomas",
+      "nombre": "Interlomas",
+      "lngLat": [-99.2826, 19.3963],
+      "expres": true
+    },
+    {
+      "id": "auditorio",
+      "nombre": "Auditorio",
+      "lngLat": [-99.194, 19.4262],
+      "expres": true,
+      "conexiones": [
+        "Metro L7"
+      ]
+    },
+    {
+      "id": "torre-mayor",
+      "nombre": "Chapultepec · Torre Mayor",
+      "lngLat": [-99.1752, 19.4235],
+      "expres": true,
+      "conexiones": [
+        "Metro L1",
+        "Metrobús L7"
+      ]
+    }
+  ],
+  "opciones": {
+    "permitirTunel": true,
+    "vMaxKmh": 100
+  },
+  "restricciones": [
+    {
+      "desdeKm": 1.2,
+      "hastaKm": 8.8,
+      "tipo": "tunel",
+      "motivo": "Cruza bajo zona habitacional de Lomas: no hay derecho de vía en superficie."
+    }
+  ],
+  "comparativa": {
+    "autoKm": 16.2,
+    "autoLibreMin": 22,
+    "autoPicoMin": 60,
+    "fuente": "Auto sin tráfico: ruta OSRM (OpenStreetMap). Hora pico: supuesto editable (~16 km/h)."
+  },
+  "vista": {
+    "centro": [-99.2045, 19.4262],
+    "zoom": 15.4,
+    "inclinacion": 72,
+    "rumbo": 100
+  }
+}

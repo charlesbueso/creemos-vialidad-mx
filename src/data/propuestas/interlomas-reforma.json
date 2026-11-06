@@ -1,0 +1,98 @@
+{
+  "id": "interlomas-reforma",
+  "nombre": "Línea Poniente: Interlomas – Reforma",
+  "color": "#2A78D6",
+  "tecnologia": "monorriel",
+  "descripcion": "Monorriel elevado que cruza las barrancas de Huixquilucan y Bosques en viaducto y luego corre sobre el camellón de Paseo de la Reforma en Lomas hasta Chapultepec. Primer trazo de exploración: hay que validar derecho de vía, impacto en el Bosque de Chapultepec y si el tramo final conviene subterráneo.",
+  "trazo": [
+    [-99.2826, 19.3963],
+    [-99.2705, 19.3925],
+    [-99.259, 19.3893],
+    [-99.2508, 19.388],
+    [-99.244, 19.3905],
+    [-99.2392, 19.394],
+    [-99.2339, 19.3997],
+    [-99.228, 19.4064],
+    [-99.2245, 19.4068],
+    [-99.2197, 19.4138],
+    [-99.2178, 19.419],
+    [-99.2139, 19.4235],
+    [-99.2091, 19.4248],
+    [-99.2053, 19.4271],
+    [-99.203, 19.4275],
+    [-99.193, 19.426],
+    [-99.185, 19.4247],
+    [-99.1752, 19.4235]
+  ],
+  "estaciones": [
+    {
+      "id": "interlomas",
+      "nombre": "Interlomas",
+      "lngLat": [-99.2826, 19.3963],
+      "expres": true,
+      "conexiones": [
+        "Huixquilucan"
+      ]
+    },
+    {
+      "id": "bosques",
+      "nombre": "Bosques · Arcos",
+      "lngLat": [-99.2482, 19.3889],
+      "expres": true,
+      "conexiones": [
+        "Corporativos de Bosques"
+      ]
+    },
+    {
+      "id": "lomas-altas",
+      "nombre": "Lomas Altas",
+      "lngLat": [-99.2352, 19.3983]
+    },
+    {
+      "id": "lomas-chapultepec",
+      "nombre": "Lomas de Chapultepec",
+      "lngLat": [-99.2188, 19.4162]
+    },
+    {
+      "id": "virreyes",
+      "nombre": "Lomas Virreyes",
+      "lngLat": [-99.2118, 19.4241]
+    },
+    {
+      "id": "auditorio",
+      "nombre": "Auditorio",
+      "lngLat": [-99.194, 19.4262],
+      "expres": true,
+      "conexiones": [
+        "Metro L7",
+        "Periférico"
+      ]
+    },
+    {
+      "id": "torre-mayor",
+      "nombre": "Chapultepec · Torre Mayor",
+      "lngLat": [-99.1752, 19.4235],
+      "expres": true,
+      "conexiones": [
+        "Metro L1",
+        "Metrobús L7"
+      ]
+    }
+  ],
+  "opciones": {
+    "permitirTunel": true
+  },
+  "restricciones": [],
+  "comparativa": {
+    "autoKm": 16.2,
+    "autoLibreMin": 22,
+    "autoPicoMin": 60,
+    "fuente": "Auto sin tráfico: ruta OSRM (OpenStreetMap). Hora pico: supuesto editable (~16 km/h)."
+  },
+  "vista": {
+    "centro": [-99.2655, 19.3905],
+    "zoom": 15.4,
+    "inclinacion": 73,
+    "rumbo": 92
+  }
+}

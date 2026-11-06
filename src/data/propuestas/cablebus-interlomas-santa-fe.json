@@ -1,0 +1,47 @@
+{
+  "id": "cablebus-interlomas-santa-fe",
+  "nombre": "Cablebús Interlomas – Santa Fe",
+  "color": "#1BAF7A",
+  "tecnologia": "cablebus",
+  "descripcion": "Alimentador barato y rápido de construir: vuela sobre las barrancas para unir Interlomas con el Centro Comercial Santa Fe y la estación Santa Fe del Tren Interurbano \"El Insurgente\" (que llega a Observatorio y al Metro). No compite en velocidad con un tren, pero conecta la red.",
+  "trazo": [
+    [-99.2826, 19.3963],
+    [-99.2797, 19.3612],
+    [-99.269, 19.364]
+  ],
+  "estaciones": [
+    {
+      "id": "interlomas",
+      "nombre": "Interlomas",
+      "lngLat": [-99.2826, 19.3963]
+    },
+    {
+      "id": "centro-santa-fe",
+      "nombre": "Centro Santa Fe",
+      "lngLat": [-99.2797, 19.3612]
+    },
+    {
+      "id": "santa-fe-insurgente",
+      "nombre": "Santa Fe (El Insurgente)",
+      "lngLat": [-99.269, 19.364],
+      "conexiones": [
+        "Tren Interurbano"
+      ]
+    }
+  ],
+  "opciones": {
+    "permitirTunel": false
+  },
+  "restricciones": [],
+  "comparativa": {
+    "autoLibreMin": 12,
+    "autoPicoMin": 30,
+    "fuente": "Supuestos editables para el trayecto Interlomas – Santa Fe en auto."
+  },
+  "vista": {
+    "centro": [-99.2812, 19.3815],
+    "zoom": 15.3,
+    "inclinacion": 72,
+    "rumbo": 172
+  }
+}
